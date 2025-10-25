@@ -1,5 +1,4 @@
 // BEGIN
-// solutions/2-modification.js
 
 const swap = (arr) => {
   if (arr.length < 2) {
