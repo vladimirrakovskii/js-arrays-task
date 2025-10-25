@@ -1,3 +1,8 @@
-// BEGIN (write your solution here)
+const getWeekends = (format = 'long') => {
+  if (format === 'short') {
+    return ['sat', 'sun'];
+  }
+  return ['saturday', 'sunday'];
+};
 
-// END
+export { getWeekends };
